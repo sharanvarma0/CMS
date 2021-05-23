@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'cms/style.css' %}">
+  </head>
+  <body>
+    <div id="header">
+      <form action="{% url 'cms:search' %}" method="get">
+        <a href="{% url 'cms:storyhome' %}">Home</a> 
+        <label for="q">Search:</label> <input type="text" name="q">
+        <input type="submit" value="search">
+      </form>
+    </div>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
+
