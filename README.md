@@ -13,4 +13,5 @@ User page
 =========
 The home page (/cms/) lists all content. Only published and archived content are available to the end users. It also has a very basic search functionality.
 
-This project needs a lot more work as of now like a login page and marking users as admins, etc. Will continue improving on it when time permits.
+This project needs a lot more work as of now like a login page and marking users as admins, etc. Will continue improving on it when time permits. Also need to add some frontend
+content in JS, CSS or React if possible.
